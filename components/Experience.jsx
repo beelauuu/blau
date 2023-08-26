@@ -6,13 +6,13 @@ import {
     VerticalTimelineElement,
   } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import {
-    FaAmazon,
-} from 'react-icons/fa';
-import {
-    GiTurtleShell,
-    GiSubmarineMissile
-} from 'react-icons/Gi';
+// import {
+//     FaAmazon,
+// } from 'react-icons/fa';
+// import {
+//     GiTurtleShell,
+//     GiSubmarineMissile
+// } from 'react-icons/Gi';
 
 
 const Experience = () => {
@@ -27,8 +27,8 @@ const Experience = () => {
           contentStyle={{ background: '#fff', color: '#000' }}
           contentArrowStyle={{ borderRight: '7px solid  #fff' }}
           date="May 2023 - August 2023"
-          icon={<FaAmazon/>}
-          iconStyle={{ background: '#fff', color: '#000' }}
+          // icon={<FaAmazon/>}
+          iconStyle={{ background: '#ff9f00', color: '#000' }}
         >
         <div className="text-left">
           <h3 className="mt-5 text-2xl font-extrabold leading-[1.15] text-black sm:text-2xl orange_gradient vertical-timeline-element-title">Software Development Engineering Intern @ Amazon - Advertising</h3>
@@ -51,8 +51,8 @@ const Experience = () => {
           contentStyle={{ background: '#fff', color: '#000' }}
           contentArrowStyle={{ borderRight: '7px solid  #fff' }}
           date="June 2022 - Current"
-          icon={<GiTurtleShell/>}
-          iconStyle={{ background: '#fff', color: '#000' }}
+          // icon={<GiTurtleShell/>}
+          iconStyle={{ background: '#D60620', color: '#000' }}
         >
         <div className="text-left">
           <h3 className="mt-5 text-2xl font-extrabold leading-[1.15] text-black sm:text-2xl rose_gradient vertical-timeline-element-title">Lead TA @ University of Maryland: College Park - CMSC</h3>
@@ -81,8 +81,8 @@ const Experience = () => {
           contentStyle={{ background: '#fff', color: '#000' }}
           contentArrowStyle={{ borderRight: '7px solid  #fff' }}
           date="May 2022 - August 2022"
-          icon={<GiSubmarineMissile/>}
-          iconStyle={{ background: '#fff', color: '#000' }}
+          // icon={<GiSubmarineMissile/>}
+          iconStyle={{ background: '#000', color: '#000' }}
         >
         <div className="text-left">
           <h3 className="mt-5 text-2xl font-extrabold leading-[1.15] text-black sm:text-2xl black_gradient vertical-timeline-element-title">Software Engineering Intern @ Northrop Grumman - Mission Systems</h3>
