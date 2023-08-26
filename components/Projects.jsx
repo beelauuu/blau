@@ -47,7 +47,7 @@ const projectsData = [
     description: 'Website created to house my TAing resources for each semester.',
     imageUrl: Material,
     technologies: ['TypeScript', 'React', 'Bootstrap', 'TailwindCSS'],
-    link: 'https://blau.vercel.app/',
+    link: 'https://beelau.vercel.app/',
   },
   {
     id: 6,
