@@ -1,0 +1,53 @@
+.skills-container {
+    position: relative; /* Important for positioning the hexagons */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .hexagon {
+    width: 100px;
+    height: 100px;
+    background-color: #171515;
+    color: #4f4646;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); /* Hexagon shape */
+  }
+  
+  .hexagon img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+    
+  .skill-name-tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Adjust the position of each hexagon */
+  .hex1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  
+  .hex2 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+  }
+  
+  /* Add more .hexX classes as needed for additional hexagons */
+  
