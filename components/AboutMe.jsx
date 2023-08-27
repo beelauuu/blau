@@ -51,43 +51,23 @@ const AboutMe = () => {
             <p className="head_text">{typingText}</p>
             <br/><br/>
             <p className="text-2xl font-bold">
-                I'm a 3rd year student @ </p>
-            <p className="text-2xl font-bold rose_gradient">
-            University Of Maryland: College Park</p>
-            <p className="text-3xl font-bold">
-            🐢</p>
+                I'm a 3rd year student @ University Of Maryland: College Park 🐢</p>
             <br/><br/>
             <p className="text-2xl font-bold">
-            I'm a</p><p className="text-2xl font-bold blue_gradient"> Computer Science</p>
-            <p className="text-2xl font-bold">👨🏻‍💻 and</p>
-            <p className="text-2xl font-bold blue_gradient"> Applied Math</p>
-            <p className="text-2xl font-bold"> 🔢 double major</p>
+            I'm a Computer Science 👨🏻‍💻 and Applied Math 🔢 double major</p>
             <br/><br/>
             <p className="text-2xl font-bold">
-            I'm currently a </p>
-            <p className="text-2xl font-bold orange_gradient">Software Development Engineering Intern @ Amazon </p>
-            <p className="text-2xl font-bold">
-             on the </p>
-            <p className="text-2xl font-bold">Amazon Display Ads (ADA) 🛍️ Team</p>
+            This summer, I was a Software Development Engineering Intern @ Amazon on the Amazon Display Ads (ADA) 🛍️ Team</p>
             <br/><br/>
             <p className="text-2xl font-bold">
-            I was an intern last summer @ </p>
-            <p className="text-2xl font-bold black_gradient">Northrop Grumman </p>
+            I was an intern last summer @ Northrop Grumman in the Mission Systems Department 🚀</p>
+            <br/><br/>
             <p className="text-2xl font-bold">
-             in the Mission Systems Department 🚀</p>
-             <br/><br/>
-             <p className="text-2xl font-bold">
-            In my free time, I like to </p>
-            <p className="text-2xl font-bold green_gradient">Run </p>
-            <p className="text-2xl font-bold">🏃, </p>
-            <p className="text-2xl font-bold green_gradient">Road Bike </p>
-            <p className="text-2xl font-bold">🚴‍♂️, and of course </p>
-            <p className="text-2xl font-bold green_gradient"> Code </p>
-            <p className="text-2xl font-bold">🛠️</p>
+            In my free time, I like to run 🏃, road bike 🚴‍♂️, and of course code 🛠️</p>
             <a href="Brian%20Lau%20Summer%202024.pdf" download>
             <br/><br/>
           <button className="bg-gray-500 hover:bg-red-500 text-black font-bold py-3 px-7 rounded">
-            Download Resume
+            Click to download my resume!
           </button>
         </a>
             <br></br><br></br><br></br>

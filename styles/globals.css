@@ -79,6 +79,16 @@
   color: transparent;
 }
 
+@keyframes rainbow-bg {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.animate-rainbow-bg {
+  animation: rainbow-bg 8s linear infinite;
+}
+
+
 
 @media screen and (max-width: 640px) {
   .main {

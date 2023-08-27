@@ -39,11 +39,11 @@ function NavBar() {
 
   return (
     <div>
-      <nav className="w-full fixed bg-white md:bg-transparent" style={{ zIndex: 2 }}>
+      <nav className="w-full fixed bg-gradient-to-r from-rainbow-red from-15% via-rainbow-green via-40% to-rainbow-violet to-90%" style={{ zIndex: 2 }}>
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <h2 className="text-5xl font-bold font-indie-flower rainbow-text ml-5" onClick={scrollToTop}>
+              <h2 className="text-5xl font-bold font-indie-flower text-black ml-5" onClick={scrollToTop}>
                 BL
               </h2>
               <div className="md:hidden">
@@ -73,22 +73,22 @@ function NavBar() {
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                <li className="font-extrabold pb-6 text-2xl rainbow-text py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-white  border-white md:hover:text-white md:hover:bg-transparent">
+                <li className="font-extrabold pb-6 text-2xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-white  border-white md:hover:text-white md:hover:bg-transparent">
                   <ScrollLink to="about" smooth={true} duration={500} onClick={closeMenu}>
                     About
                   </ScrollLink>
                 </li>
-                <li className="font-extrabold pb-6 text-2xl rainbow-text py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-white  border-white md:hover:text-white md:hover:bg-transparent">
+                <li className="font-extrabold pb-6 text-2xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-white  border-white md:hover:text-white md:hover:bg-transparent">
                   <ScrollLink to="skills" smooth={true} duration={500} onClick={closeMenu}>
                     Skills
                   </ScrollLink>
                 </li>
-                <li className="font-extrabold pb-6 text-2xl rainbow-text py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-white  border-white md:hover:text-white md:hover:bg-transparent">
+                <li className="font-extrabold pb-6 text-2xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-white  border-white md:hover:text-white md:hover:bg-transparent">
                   <ScrollLink to="experience" smooth={true} duration={500} onClick={closeMenu}>
                     Experience
                   </ScrollLink>
                 </li>
-                <li className="font-extrabold pb-6 text-2xl rainbow-text py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-white  border-white md:hover:text-white md:hover:bg-transparent">
+                <li className="font-extrabold pb-6 text-2xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-white  border-white md:hover:text-white md:hover:bg-transparent">
                   <ScrollLink to="projects" smooth={true} duration={500} onClick={closeMenu}>
                     Projects
                   </ScrollLink>
