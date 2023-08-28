@@ -1,24 +1,16 @@
 'use client'
 
-import React, { useState, useEffect } from 'react';
-import photo from '../public/running.jpg'; // Replace with the actual path to your photo
-import '../styles/ParallaxEffect.css'; // Create this CSS file for styling
-import Image from 'next/image';
+import React from 'react';
+import { useSpring, animated } from 'react-spring';
 import NavBar from './Navbar';
+import '../styles/ParallaxEffect.css'; // Create this CSS file for styling
 
 const Hero = () => {
-  const [scrollY, setScrollY] = useState(0);
-  const tickingRef = React.useRef(false);
+  const [scrollY, setScrollY] = React.useState(0);
 
-  useEffect(() => {
+  React.useEffect(() => {
     const handleScroll = () => {
-      if (!tickingRef.current) {
-        window.requestAnimationFrame(() => {
-          setScrollY(window.pageYOffset);
-          tickingRef.current = false;
-        });
-        tickingRef.current = true;
-      }
+      setScrollY(window.pageYOffset);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -28,14 +20,15 @@ const Hero = () => {
     };
   }, []);
 
+  const parallaxStyles = useSpring({
+    transform: `translate3d(0, ${scrollY * 0.7}px, 0)`, // Adjust the multiplier for desired effect
+  });
+
   return (
-    <div className="parallax-container bg-neutral-600 w-screen w-full h-full">
-      <div
-        className="parallax-image"
-        style={{ transform: `translateY(${scrollY * 0.5}px)` }}
-      >
-        <Image alt="hi" src={photo} />
-      </div>
+    <div className="parallax-container">
+      <animated.div className="parallax-image" style={parallaxStyles}>
+        <img alt="hi" src={'running.jpg'} />
+      </animated.div>
       <div className="parallax-content">
         <NavBar />
       </div>
@@ -44,4 +37,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
