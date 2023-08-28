@@ -43,7 +43,7 @@ const AboutMe = () => {
   };
   return (
     <div>
-        <div className="w-full w-screen h-full text-center bg-gradient-to-b from-gray-700 to-red-400">
+        <div className="w-full w-screen h-full text-center bg-gradient-to-b from-red-600 via-red-400 to-orange-400">
         <div className="text-center mt-3">
         <p className="text-5xl font-bold underline leading-[1.15] text-black sm:text-6xl;">About Me</p>
         </div>

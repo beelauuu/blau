@@ -7,6 +7,7 @@ import NBA from '../public/nba.gif';
 import Plugin from '../public/plugin.jpg';
 import Material from '../public/material.jpg';
 import Portfolio from '../public/snip.png';
+import Footer from '@components/Footer';
 
 const projectsData = [
   {
@@ -97,6 +98,7 @@ const Projects = () => {
             </a>
           ))}
         </div>
+        <Footer/>
       </div>
     );
   };

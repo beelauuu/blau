@@ -73,7 +73,7 @@ const misc = [
 
 const Skills = () => {
   return (
-    <div className="w-full w-screen h-full text-center bg-gradient-to-b from-red-400 via-orange-400 to-yellow-500">
+    <div className="w-full w-screen h-full text-center bg-gradient-to-b from-orange-400 via-orange-400 to-yellow-500">
     <p className="text-5xl font-bold underline leading-[1.15] text-black sm:text-6xl;">Skills</p>
     <br/><br/>
     <p className="mb-5 text-3xl leading-[1.15] text-black sm:text-4xl font-semibold">Languages</p>

@@ -79,14 +79,18 @@
   color: transparent;
 }
 
-@keyframes rainbow-bg {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
+/* Add animations to your components using CSS */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
 }
 
-.animate-rainbow-bg {
-  animation: rainbow-bg 8s linear infinite;
+.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
 }
+
 
 
 

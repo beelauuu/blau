@@ -39,8 +39,8 @@ function NavBar() {
 
   return (
     <div>
-      <nav className="w-full fixed bg-gradient-to-r from-rainbow-red from-15% via-rainbow-green via-40% to-rainbow-violet to-90%" style={{ zIndex: 2 }}>
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+      <nav className="w-screen fixed bg-gradient-to-r from-rainbow-red from-15% via-rainbow-green via-40% to-rainbow-violet to-90%" style={{ zIndex: 2 }}>
+        <div className="justify-between px-8 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <h2 className="text-5xl font-bold font-indie-flower text-black ml-5" onClick={scrollToTop}>
