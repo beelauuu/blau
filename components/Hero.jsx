@@ -21,7 +21,7 @@ const Hero = () => {
   }, []);
 
   const parallaxStyles = useSpring({
-    transform: `translate3d(0, ${scrollY * 0.7}px, 0)`, // Adjust the multiplier for desired effect
+    transform: `translate3d(0, ${scrollY * 0.5}px, 0)`, // Adjust the multiplier for desired effect
   });
 
   return (
